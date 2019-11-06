@@ -1,0 +1,181 @@
+* {
+    font-family: Arial, Helvetica;
+}
+
+body {
+    background-color: rgb(52, 52, 58);
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 70%;
+    height: 100%;
+    margin-left: 15%;
+    text-align: center;
+}
+
+.leftPanel {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid black;
+    border-radius: 5px;
+    background-color: rgb(78, 74, 107);
+    height: 100%;
+    width: 40%;
+    margin-right: .5%;
+}
+
+.rightPanel {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid black;
+    border-radius: 5px;
+    background-color: rgb(103, 104, 114);
+
+    height: 100%;
+    width: 40%;
+    margin-left: .5%;
+}
+
+.Header {
+    font-size: 200%;
+    margin: 5%;
+}
+
+.inputHeaders {
+    font-size: 150%;
+    margin-bottom: 2%;
+    margin-top: 10%;
+}
+
+.filterHeader {
+    font-size: 150%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+.toDoInput {
+    Height: 200%;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+}
+
+.inputForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.createToDo {
+    margin-top: 5%;
+    background-image: url("addbutton.PNG");
+    background-size: cover;
+    background-position: center;
+    border:none;
+    background-color:transparent;
+    outline:none;
+    cursor:pointer;
+    width: 50px;
+    height: 50px;
+}
+
+.createToDo:hover {
+    width: 55px;
+    height: 55px;
+}
+
+.toDo {
+    width: 70%;
+    height: 30px;
+    font-size: 150%;
+}
+
+.toDoList {
+    height: 200%;
+    Overflow: auto;
+    border-top: 5px solid black;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    height: 10%;
+    background-color: rgb(167, 158, 218);
+    border-bottom: 5px solid;
+}
+
+.itemText {
+    font-size: 150%;
+    margin-left: 5%;
+}
+
+.topRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 90%;
+}
+
+.bottomRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 30%;
+    font-size: 70%;
+}
+
+.lastDay {
+    margin-left: 5%;
+}
+
+.item.finished {
+    background-color: rgb(127, 153, 127);
+}
+
+.checkbox {
+    opacity: 1;
+    cursor: pointer;
+    height: 25px;
+    width: 25px;
+    margin-right: 2.5%;
+}
+
+.itemRemoveButton {
+    background-image: url("removebutton.PNG");
+    background-size: cover;
+    background-position: center;
+    border:none;
+    background-color:transparent;
+    outline:none;
+    cursor:pointer;
+    width: 30px;
+    height: 30px;
+    margin-right: 2%;
+}
+
+.itemRemoveButton:hover {
+    width: 35px;
+    height: 35px;
+}
+
+.filterText {
+    width: 70%;
+    height: 30px;
+    font-size: 150%;
+}
+
+.filterCategoryForm {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+.radioButton {
+    margin-left: 2%;
+}
+

@@ -1,0 +1,49 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>To-do list</title>
+        <link rel="stylesheet" type="text/css" href="Style.css">
+    </head>
+    <body>
+        <div class="mainContainer">
+            <div class="leftPanel">
+                <p class="Header">Create/filter item</p>
+                <div class="toDoInput">
+                    <form class="inputForm">
+                        <p class="inputHeaders">Add task</p>
+                        <input type="text" class="toDo" value="">
+                        <p class="inputHeaders">Finish before</p>
+                        <input type="date" class="toDoDate" value="">
+                        <p class="inputHeaders">Category</p>
+                        <select class="toDoCategory" name="Category">
+                            <option value="home">Home</option>
+                            <option value="work">Work</option>
+                            <option value="school">School</option>
+                            <option value="other">Other</option>
+                        </select>
+                        <input type="submit" class="createToDo" value="">
+                    </form>
+                </div>
+                <p class="filterHeader">Filter item</p>
+                <div class="toDoFilter">
+                    <form class="filterTextForm">
+                        <input type="text" class="filterText" value="">
+                    </form>
+                    <form class="filterCategoryForm">
+                        <input type="radio" class="radioButton" name="category" value="all" checked>All
+                        <input type="radio" class="radioButton" name="category" value="home">Home
+                        <input type="radio" class="radioButton" name="category" value="work">Work
+                        <input type="radio" class="radioButton" name="category" value="school">School
+                        <input type="radio" class="radioButton" name="category" value="other">Other
+                    </form>
+                </div>
+            </div>
+            <div class="rightPanel">
+                <p class="Header">To-do list</p>
+                <div class="toDoList"></div>
+            </div>
+        </div>
+        <script type="application/javascript" src="Functions.js"></script>
+        <script type="application/javascript" src="Main.js"></script>
+    </body>
+</html>
